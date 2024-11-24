@@ -1,4 +1,10 @@
-env/           # Ignore the virtual environment folder
-*.pyc          # Ignore compiled Python files
-__pycache__/   # Ignore Python cache
-.DS_Store      # Ignore macOS system file (if applicable)
+# Ignore virtual environments
+env/
+
+# Ignore Python cache
+*.pyc
+__pycache__/
+
+# Ignore other unnecessary files
+*.log
+.DS_Store
